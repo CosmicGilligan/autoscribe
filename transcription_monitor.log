@@ -1063,3 +1063,54 @@
 2025-08-02 14:24:38,202 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/ab50e518-5dbf-47ee-b028-b7eaacafc518 "HTTP/1.1 200 OK"
 2025-08-02 14:24:41,926 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/ab50e518-5dbf-47ee-b028-b7eaacafc518 "HTTP/1.1 200 OK"
 2025-08-02 14:24:42,334 - INFO - ✅ Successfully processed The Great War Part II.mp4 → The Great War Part II.txt
+2025-08-06 13:29:01,448 - INFO - ✅ AssemblyAI transcriber initialized
+2025-08-06 13:29:23,954 - INFO - 📁 New media file detected: module 1 intro.wav
+2025-08-06 13:29:25,954 - INFO - 🎬 Starting transcription: module 1 intro.wav 
+2025-08-06 13:29:25,958 - INFO - 🎵 Converting to MP3: module 1 intro.wav
+2025-08-06 13:29:28,795 - INFO - ✅ MP3 conversion successful: module 1 intro.mp3
+2025-08-06 13:29:28,795 - INFO - 🔄 Transcribing module 1 intro.wav...
+2025-08-06 13:29:35,883 - INFO - HTTP Request: POST https://api.assemblyai.com/v2/upload "HTTP/1.1 200 OK"
+2025-08-06 13:29:35,986 - INFO - HTTP Request: POST https://api.assemblyai.com/v2/transcript "HTTP/1.1 200 OK"
+2025-08-06 13:29:36,405 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/e9725c48-8418-46a6-ad78-afe42be8df77 "HTTP/1.1 200 OK"
+2025-08-06 13:29:39,472 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/e9725c48-8418-46a6-ad78-afe42be8df77 "HTTP/1.1 200 OK"
+2025-08-06 13:29:42,625 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/e9725c48-8418-46a6-ad78-afe42be8df77 "HTTP/1.1 200 OK"
+2025-08-06 13:29:43,849 - INFO - ✅ Successfully processed module 1 intro.wav → module 1 intro.txt
+2025-08-06 13:29:43,850 - INFO - 🎵 MP3 file created: module 1 intro.mp3
+2025-08-13 11:35:55,794 - INFO - ✅ AssemblyAI transcriber initialized
+2025-08-13 11:36:26,706 - INFO - 📁 New media file detected: Mansa Musa.mp4
+2025-08-13 11:36:28,706 - INFO - 🎬 Starting transcription: Mansa Musa.mp4 
+2025-08-13 11:36:28,706 - INFO - 🔄 Transcribing Mansa Musa.mp4...
+2025-08-13 11:43:24,663 - INFO - HTTP Request: POST https://api.assemblyai.com/v2/upload "HTTP/1.1 200 OK"
+2025-08-13 11:43:24,766 - INFO - HTTP Request: POST https://api.assemblyai.com/v2/transcript "HTTP/1.1 200 OK"
+2025-08-13 11:43:24,820 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/65923731-0a86-4ce3-a1cc-c8bd1abc2b78 "HTTP/1.1 200 OK"
+2025-08-13 11:43:27,870 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/65923731-0a86-4ce3-a1cc-c8bd1abc2b78 "HTTP/1.1 200 OK"
+2025-08-13 11:43:30,920 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/65923731-0a86-4ce3-a1cc-c8bd1abc2b78 "HTTP/1.1 200 OK"
+2025-08-13 11:43:33,971 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/65923731-0a86-4ce3-a1cc-c8bd1abc2b78 "HTTP/1.1 200 OK"
+2025-08-13 11:43:37,024 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/65923731-0a86-4ce3-a1cc-c8bd1abc2b78 "HTTP/1.1 200 OK"
+2025-08-13 11:43:40,157 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/65923731-0a86-4ce3-a1cc-c8bd1abc2b78 "HTTP/1.1 200 OK"
+2025-08-13 11:43:43,227 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/65923731-0a86-4ce3-a1cc-c8bd1abc2b78 "HTTP/1.1 200 OK"
+2025-08-13 11:43:49,578 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/65923731-0a86-4ce3-a1cc-c8bd1abc2b78 "HTTP/1.1 200 OK"
+2025-08-13 11:43:52,686 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/65923731-0a86-4ce3-a1cc-c8bd1abc2b78 "HTTP/1.1 200 OK"
+2025-08-13 11:43:55,920 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/65923731-0a86-4ce3-a1cc-c8bd1abc2b78 "HTTP/1.1 200 OK"
+2025-08-13 11:43:58,972 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/65923731-0a86-4ce3-a1cc-c8bd1abc2b78 "HTTP/1.1 200 OK"
+2025-08-13 11:44:02,022 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/65923731-0a86-4ce3-a1cc-c8bd1abc2b78 "HTTP/1.1 200 OK"
+2025-08-13 11:44:05,085 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/65923731-0a86-4ce3-a1cc-c8bd1abc2b78 "HTTP/1.1 200 OK"
+2025-08-13 11:44:08,183 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/65923731-0a86-4ce3-a1cc-c8bd1abc2b78 "HTTP/1.1 200 OK"
+2025-08-13 11:44:11,272 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/65923731-0a86-4ce3-a1cc-c8bd1abc2b78 "HTTP/1.1 200 OK"
+2025-08-13 11:44:11,355 - INFO - ✅ Successfully processed Mansa Musa.mp4 → Mansa Musa.txt
+2025-08-14 09:18:05,524 - INFO - ✅ AssemblyAI transcriber initialized
+2025-08-14 09:18:25,836 - INFO - 📁 New media file detected: new-world3.mp3
+2025-08-14 09:18:27,837 - INFO - 🎬 Starting transcription: new-world3.mp3 
+2025-08-14 09:18:27,837 - INFO - 🔄 Transcribing new-world3.mp3...
+2025-08-14 09:18:35,148 - INFO - HTTP Request: POST https://api.assemblyai.com/v2/upload "HTTP/1.1 200 OK"
+2025-08-14 09:18:35,259 - INFO - HTTP Request: POST https://api.assemblyai.com/v2/transcript "HTTP/1.1 200 OK"
+2025-08-14 09:18:35,320 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/822671a6-9da7-40b5-ae85-e89840d91fb6 "HTTP/1.1 200 OK"
+2025-08-14 09:18:38,378 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/822671a6-9da7-40b5-ae85-e89840d91fb6 "HTTP/1.1 200 OK"
+2025-08-14 09:18:41,439 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/822671a6-9da7-40b5-ae85-e89840d91fb6 "HTTP/1.1 200 OK"
+2025-08-14 09:18:44,532 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/822671a6-9da7-40b5-ae85-e89840d91fb6 "HTTP/1.1 200 OK"
+2025-08-14 09:18:47,595 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/822671a6-9da7-40b5-ae85-e89840d91fb6 "HTTP/1.1 200 OK"
+2025-08-14 09:18:50,651 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/822671a6-9da7-40b5-ae85-e89840d91fb6 "HTTP/1.1 200 OK"
+2025-08-14 09:18:54,506 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/822671a6-9da7-40b5-ae85-e89840d91fb6 "HTTP/1.1 200 OK"
+2025-08-14 09:18:57,562 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/822671a6-9da7-40b5-ae85-e89840d91fb6 "HTTP/1.1 200 OK"
+2025-08-14 09:19:01,066 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/822671a6-9da7-40b5-ae85-e89840d91fb6 "HTTP/1.1 200 OK"
+2025-08-14 09:19:01,265 - INFO - ✅ Successfully processed new-world3.mp3 → new-world3.txt
