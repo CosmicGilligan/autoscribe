@@ -1114,3 +1114,516 @@
 2025-08-14 09:18:57,562 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/822671a6-9da7-40b5-ae85-e89840d91fb6 "HTTP/1.1 200 OK"
 2025-08-14 09:19:01,066 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/822671a6-9da7-40b5-ae85-e89840d91fb6 "HTTP/1.1 200 OK"
 2025-08-14 09:19:01,265 - INFO - ✅ Successfully processed new-world3.mp3 → new-world3.txt
+2025-08-15 17:15:29,127 - INFO - ✅ AssemblyAI transcriber initialized
+2025-08-15 17:16:01,619 - INFO - 📁 New media file detected: GMT20210510-175940_Recording_1360x768.mp4
+2025-08-15 17:16:03,688 - INFO - 🎬 Starting transcription: GMT20210510-175940_Recording_1360x768.mp4 
+2025-08-15 17:16:03,688 - INFO - 🔄 Transcribing GMT20210510-175940_Recording_1360x768.mp4...
+2025-08-15 17:31:32,807 - INFO - HTTP Request: POST https://api.assemblyai.com/v2/upload "HTTP/1.1 502 Bad Gateway"
+2025-08-15 17:31:32,809 - ERROR - ❌ Error processing GMT20210510-175940_Recording_1360x768.mp4: Failed to upload audio file: 
+Reason: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+</body>
+</html>
+
+Request: <Request('POST', 'https://api.assemblyai.com/v2/upload')>
+2025-08-15 17:31:32,809 - INFO - 📁 New media file detected: GMT20210208-190825_HIST-110_1680x768.mp4
+2025-08-15 17:31:34,810 - INFO - 🎬 Starting transcription: GMT20210208-190825_HIST-110_1680x768.mp4 
+2025-08-15 17:31:34,810 - INFO - 🔄 Transcribing GMT20210208-190825_HIST-110_1680x768.mp4...
+2025-08-15 17:47:02,943 - INFO - HTTP Request: POST https://api.assemblyai.com/v2/upload "HTTP/1.1 502 Bad Gateway"
+2025-08-15 17:47:02,943 - ERROR - ❌ Error processing GMT20210208-190825_HIST-110_1680x768.mp4: Failed to upload audio file: 
+Reason: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+</body>
+</html>
+
+Request: <Request('POST', 'https://api.assemblyai.com/v2/upload')>
+2025-08-15 17:47:02,943 - INFO - 📁 New media file detected: GMT20210212-164946_Keith-Cox-_1680x768.mp4
+2025-08-15 17:47:04,944 - INFO - 🎬 Starting transcription: GMT20210212-164946_Keith-Cox-_1680x768.mp4 
+2025-08-15 17:47:04,944 - INFO - 🔄 Transcribing GMT20210212-164946_Keith-Cox-_1680x768.mp4...
+2025-08-15 17:57:46,204 - INFO - HTTP Request: POST https://api.assemblyai.com/v2/upload "HTTP/1.1 200 OK"
+2025-08-15 17:57:46,347 - INFO - HTTP Request: POST https://api.assemblyai.com/v2/transcript "HTTP/1.1 200 OK"
+2025-08-15 17:57:46,401 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/3f62fd30-5d0a-4833-9017-03ec8f37fafa "HTTP/1.1 200 OK"
+2025-08-15 17:57:49,452 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/3f62fd30-5d0a-4833-9017-03ec8f37fafa "HTTP/1.1 200 OK"
+2025-08-15 17:57:52,516 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/3f62fd30-5d0a-4833-9017-03ec8f37fafa "HTTP/1.1 200 OK"
+2025-08-15 17:57:55,571 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/3f62fd30-5d0a-4833-9017-03ec8f37fafa "HTTP/1.1 200 OK"
+2025-08-15 17:57:58,639 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/3f62fd30-5d0a-4833-9017-03ec8f37fafa "HTTP/1.1 200 OK"
+2025-08-15 17:58:01,703 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/3f62fd30-5d0a-4833-9017-03ec8f37fafa "HTTP/1.1 200 OK"
+2025-08-15 17:58:04,762 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/3f62fd30-5d0a-4833-9017-03ec8f37fafa "HTTP/1.1 200 OK"
+2025-08-15 17:58:07,832 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/3f62fd30-5d0a-4833-9017-03ec8f37fafa "HTTP/1.1 200 OK"
+2025-08-15 17:58:11,307 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/3f62fd30-5d0a-4833-9017-03ec8f37fafa "HTTP/1.1 200 OK"
+2025-08-15 17:58:11,535 - INFO - ✅ Successfully processed GMT20210212-164946_Keith-Cox-_1680x768.mp4 → GMT20210212-164946_Keith-Cox-_1680x768.txt
+2025-08-15 17:58:11,536 - INFO - 📁 New media file detected: GMT20210215-165859_Keith-Cox-_1680x768.mp4
+2025-08-15 17:58:13,537 - INFO - 🎬 Starting transcription: GMT20210215-165859_Keith-Cox-_1680x768.mp4 
+2025-08-15 17:58:13,537 - INFO - 🔄 Transcribing GMT20210215-165859_Keith-Cox-_1680x768.mp4...
+2025-08-15 18:12:11,603 - INFO - HTTP Request: POST https://api.assemblyai.com/v2/upload "HTTP/1.1 200 OK"
+2025-08-15 18:12:11,750 - INFO - HTTP Request: POST https://api.assemblyai.com/v2/transcript "HTTP/1.1 200 OK"
+2025-08-15 18:12:11,882 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/10215d29-89b5-44a6-80b0-a4b43fba9e81 "HTTP/1.1 200 OK"
+2025-08-15 18:12:15,001 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/10215d29-89b5-44a6-80b0-a4b43fba9e81 "HTTP/1.1 200 OK"
+2025-08-15 18:12:20,665 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/10215d29-89b5-44a6-80b0-a4b43fba9e81 "HTTP/1.1 200 OK"
+2025-08-15 18:12:23,731 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/10215d29-89b5-44a6-80b0-a4b43fba9e81 "HTTP/1.1 200 OK"
+2025-08-15 18:12:27,052 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/10215d29-89b5-44a6-80b0-a4b43fba9e81 "HTTP/1.1 200 OK"
+2025-08-15 18:12:30,112 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/10215d29-89b5-44a6-80b0-a4b43fba9e81 "HTTP/1.1 200 OK"
+2025-08-15 18:12:33,199 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/10215d29-89b5-44a6-80b0-a4b43fba9e81 "HTTP/1.1 200 OK"
+2025-08-15 18:12:36,524 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/10215d29-89b5-44a6-80b0-a4b43fba9e81 "HTTP/1.1 200 OK"
+2025-08-15 18:12:36,621 - INFO - ✅ Successfully processed GMT20210215-165859_Keith-Cox-_1680x768.mp4 → GMT20210215-165859_Keith-Cox-_1680x768.txt
+2025-08-15 18:12:36,622 - INFO - 📁 New media file detected: GMT20210222-171512_HIST-110_1680x768.mp4
+2025-08-15 18:12:38,622 - INFO - 🎬 Starting transcription: GMT20210222-171512_HIST-110_1680x768.mp4 
+2025-08-15 18:12:38,623 - INFO - 🔄 Transcribing GMT20210222-171512_HIST-110_1680x768.mp4...
+2025-08-15 18:28:09,650 - INFO - HTTP Request: POST https://api.assemblyai.com/v2/upload "HTTP/1.1 502 Bad Gateway"
+2025-08-15 18:28:09,651 - ERROR - ❌ Error processing GMT20210222-171512_HIST-110_1680x768.mp4: Failed to upload audio file: 
+Reason: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+</body>
+</html>
+
+Request: <Request('POST', 'https://api.assemblyai.com/v2/upload')>
+2025-08-15 18:28:09,651 - INFO - 📁 New media file detected: GMT20210222-190246_HIST-110_1680x768.mp4
+2025-08-15 18:28:11,652 - INFO - 🎬 Starting transcription: GMT20210222-190246_HIST-110_1680x768.mp4 
+2025-08-15 18:28:11,652 - INFO - 🔄 Transcribing GMT20210222-190246_HIST-110_1680x768.mp4...
+2025-08-15 18:43:39,965 - INFO - HTTP Request: POST https://api.assemblyai.com/v2/upload "HTTP/1.1 502 Bad Gateway"
+2025-08-15 18:43:39,965 - ERROR - ❌ Error processing GMT20210222-190246_HIST-110_1680x768.mp4: Failed to upload audio file: 
+Reason: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+</body>
+</html>
+
+Request: <Request('POST', 'https://api.assemblyai.com/v2/upload')>
+2025-08-15 18:43:39,965 - INFO - 📁 New media file detected: GMT20210224-172904_HIST-110_1680x768.mp4
+2025-08-15 18:43:41,965 - INFO - 🎬 Starting transcription: GMT20210224-172904_HIST-110_1680x768.mp4 
+2025-08-15 18:43:41,966 - INFO - 🔄 Transcribing GMT20210224-172904_HIST-110_1680x768.mp4...
+2025-08-15 18:59:13,174 - INFO - HTTP Request: POST https://api.assemblyai.com/v2/upload "HTTP/1.1 502 Bad Gateway"
+2025-08-15 18:59:13,174 - ERROR - ❌ Error processing GMT20210224-172904_HIST-110_1680x768.mp4: Failed to upload audio file: 
+Reason: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+</body>
+</html>
+
+Request: <Request('POST', 'https://api.assemblyai.com/v2/upload')>
+2025-08-15 18:59:13,174 - INFO - 📁 New media file detected: GMT20210224-190347_HIST-110_1680x768.mp4
+2025-08-15 18:59:15,175 - INFO - 🎬 Starting transcription: GMT20210224-190347_HIST-110_1680x768.mp4 
+2025-08-15 18:59:15,175 - INFO - 🔄 Transcribing GMT20210224-190347_HIST-110_1680x768.mp4...
+2025-08-15 19:14:44,654 - INFO - HTTP Request: POST https://api.assemblyai.com/v2/upload "HTTP/1.1 502 Bad Gateway"
+2025-08-15 19:14:44,655 - ERROR - ❌ Error processing GMT20210224-190347_HIST-110_1680x768.mp4: Failed to upload audio file: 
+Reason: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+</body>
+</html>
+
+Request: <Request('POST', 'https://api.assemblyai.com/v2/upload')>
+2025-08-15 19:14:44,655 - INFO - 📁 New media file detected: GMT20210301-172356_HIST-110_1680x768.mp4
+2025-08-15 19:14:46,655 - INFO - 🎬 Starting transcription: GMT20210301-172356_HIST-110_1680x768.mp4 
+2025-08-15 19:14:46,656 - INFO - 🔄 Transcribing GMT20210301-172356_HIST-110_1680x768.mp4...
+2025-08-15 19:30:15,453 - INFO - HTTP Request: POST https://api.assemblyai.com/v2/upload "HTTP/1.1 502 Bad Gateway"
+2025-08-15 19:30:15,454 - ERROR - ❌ Error processing GMT20210301-172356_HIST-110_1680x768.mp4: Failed to upload audio file: 
+Reason: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+</body>
+</html>
+
+Request: <Request('POST', 'https://api.assemblyai.com/v2/upload')>
+2025-08-15 19:30:15,454 - INFO - 📁 New media file detected: GMT20210301-185924_HIST-110_1680x728.mp4
+2025-08-15 19:30:17,455 - INFO - 🎬 Starting transcription: GMT20210301-185924_HIST-110_1680x728.mp4 
+2025-08-15 19:30:17,455 - INFO - 🔄 Transcribing GMT20210301-185924_HIST-110_1680x728.mp4...
+2025-08-15 19:45:48,992 - INFO - HTTP Request: POST https://api.assemblyai.com/v2/upload "HTTP/1.1 502 Bad Gateway"
+2025-08-15 19:45:48,992 - ERROR - ❌ Error processing GMT20210301-185924_HIST-110_1680x728.mp4: Failed to upload audio file: 
+Reason: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+</body>
+</html>
+
+Request: <Request('POST', 'https://api.assemblyai.com/v2/upload')>
+2025-08-15 19:45:48,993 - INFO - 📁 New media file detected: GMT20210303-172633_HIST-110_1680x768.mp4
+2025-08-15 19:45:50,993 - INFO - 🎬 Starting transcription: GMT20210303-172633_HIST-110_1680x768.mp4 
+2025-08-15 19:45:50,993 - INFO - 🔄 Transcribing GMT20210303-172633_HIST-110_1680x768.mp4...
+2025-08-15 20:01:23,057 - INFO - HTTP Request: POST https://api.assemblyai.com/v2/upload "HTTP/1.1 502 Bad Gateway"
+2025-08-15 20:01:23,058 - ERROR - ❌ Error processing GMT20210303-172633_HIST-110_1680x768.mp4: Failed to upload audio file: 
+Reason: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+</body>
+</html>
+
+Request: <Request('POST', 'https://api.assemblyai.com/v2/upload')>
+2025-08-15 20:01:23,058 - INFO - 📁 New media file detected: GMT20210303-190337_HIST-110_1680x768.mp4
+2025-08-15 20:01:25,058 - INFO - 🎬 Starting transcription: GMT20210303-190337_HIST-110_1680x768.mp4 
+2025-08-15 20:01:25,059 - INFO - 🔄 Transcribing GMT20210303-190337_HIST-110_1680x768.mp4...
+2025-08-15 20:16:55,015 - INFO - HTTP Request: POST https://api.assemblyai.com/v2/upload "HTTP/1.1 502 Bad Gateway"
+2025-08-15 20:16:55,016 - ERROR - ❌ Error processing GMT20210303-190337_HIST-110_1680x768.mp4: Failed to upload audio file: 
+Reason: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+</body>
+</html>
+
+Request: <Request('POST', 'https://api.assemblyai.com/v2/upload')>
+2025-08-15 20:16:55,016 - INFO - 📁 New media file detected: GMT20210308-172436_HIST-110_1680x768.mp4
+2025-08-15 20:16:57,016 - INFO - 🎬 Starting transcription: GMT20210308-172436_HIST-110_1680x768.mp4 
+2025-08-15 20:16:57,017 - INFO - 🔄 Transcribing GMT20210308-172436_HIST-110_1680x768.mp4...
+2025-08-15 20:32:26,905 - INFO - HTTP Request: POST https://api.assemblyai.com/v2/upload "HTTP/1.1 502 Bad Gateway"
+2025-08-15 20:32:26,906 - ERROR - ❌ Error processing GMT20210308-172436_HIST-110_1680x768.mp4: Failed to upload audio file: 
+Reason: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+</body>
+</html>
+
+Request: <Request('POST', 'https://api.assemblyai.com/v2/upload')>
+2025-08-15 20:32:26,906 - INFO - 📁 New media file detected: GMT20210308-190427_HIST-110_1680x768.mp4
+2025-08-15 20:32:28,907 - INFO - 🎬 Starting transcription: GMT20210308-190427_HIST-110_1680x768.mp4 
+2025-08-15 20:32:28,908 - INFO - 🔄 Transcribing GMT20210308-190427_HIST-110_1680x768.mp4...
+2025-08-15 20:47:59,872 - INFO - HTTP Request: POST https://api.assemblyai.com/v2/upload "HTTP/1.1 502 Bad Gateway"
+2025-08-15 20:47:59,872 - ERROR - ❌ Error processing GMT20210308-190427_HIST-110_1680x768.mp4: Failed to upload audio file: 
+Reason: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+</body>
+</html>
+
+Request: <Request('POST', 'https://api.assemblyai.com/v2/upload')>
+2025-08-15 20:47:59,872 - INFO - 📁 New media file detected: GMT20210310-172939_HIST-110_1680x768.mp4
+2025-08-15 20:48:01,873 - INFO - 🎬 Starting transcription: GMT20210310-172939_HIST-110_1680x768.mp4 
+2025-08-15 20:48:01,874 - INFO - 🔄 Transcribing GMT20210310-172939_HIST-110_1680x768.mp4...
+2025-08-15 20:55:23,349 - INFO - HTTP Request: POST https://api.assemblyai.com/v2/upload "HTTP/1.1 200 OK"
+2025-08-15 20:55:23,467 - INFO - HTTP Request: POST https://api.assemblyai.com/v2/transcript "HTTP/1.1 200 OK"
+2025-08-15 20:55:23,526 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/14150c1f-dca1-40d0-9e20-738c7a8ea80a "HTTP/1.1 200 OK"
+2025-08-15 20:55:26,591 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/14150c1f-dca1-40d0-9e20-738c7a8ea80a "HTTP/1.1 200 OK"
+2025-08-15 20:55:29,652 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/14150c1f-dca1-40d0-9e20-738c7a8ea80a "HTTP/1.1 200 OK"
+2025-08-15 20:55:32,932 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/14150c1f-dca1-40d0-9e20-738c7a8ea80a "HTTP/1.1 200 OK"
+2025-08-15 20:55:35,997 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/14150c1f-dca1-40d0-9e20-738c7a8ea80a "HTTP/1.1 200 OK"
+2025-08-15 20:55:39,106 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/14150c1f-dca1-40d0-9e20-738c7a8ea80a "HTTP/1.1 200 OK"
+2025-08-15 20:55:42,249 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/14150c1f-dca1-40d0-9e20-738c7a8ea80a "HTTP/1.1 200 OK"
+2025-08-15 20:55:45,330 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/14150c1f-dca1-40d0-9e20-738c7a8ea80a "HTTP/1.1 200 OK"
+2025-08-15 20:55:48,393 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/14150c1f-dca1-40d0-9e20-738c7a8ea80a "HTTP/1.1 200 OK"
+2025-08-15 20:55:51,467 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/14150c1f-dca1-40d0-9e20-738c7a8ea80a "HTTP/1.1 200 OK"
+2025-08-15 20:55:54,556 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/14150c1f-dca1-40d0-9e20-738c7a8ea80a "HTTP/1.1 200 OK"
+2025-08-15 20:55:57,676 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/14150c1f-dca1-40d0-9e20-738c7a8ea80a "HTTP/1.1 200 OK"
+2025-08-15 20:56:01,778 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/14150c1f-dca1-40d0-9e20-738c7a8ea80a "HTTP/1.1 200 OK"
+2025-08-15 20:56:05,485 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/14150c1f-dca1-40d0-9e20-738c7a8ea80a "HTTP/1.1 200 OK"
+2025-08-15 20:56:07,409 - INFO - ✅ Successfully processed GMT20210310-172939_HIST-110_1680x768.mp4 → GMT20210310-172939_HIST-110_1680x768.txt
+2025-08-15 20:56:07,411 - INFO - 📁 New media file detected: GMT20210310-190136_HIST-110_1680x728.mp4
+2025-08-15 20:56:09,411 - INFO - 🎬 Starting transcription: GMT20210310-190136_HIST-110_1680x728.mp4 
+2025-08-15 20:56:09,412 - INFO - 🔄 Transcribing GMT20210310-190136_HIST-110_1680x728.mp4...
+2025-08-15 21:02:24,819 - INFO - HTTP Request: POST https://api.assemblyai.com/v2/upload "HTTP/1.1 200 OK"
+2025-08-15 21:02:24,940 - INFO - HTTP Request: POST https://api.assemblyai.com/v2/transcript "HTTP/1.1 200 OK"
+2025-08-15 21:02:25,003 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/f90de01f-1ad7-4cfd-83e1-90623fb663d6 "HTTP/1.1 200 OK"
+2025-08-15 21:02:28,088 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/f90de01f-1ad7-4cfd-83e1-90623fb663d6 "HTTP/1.1 200 OK"
+2025-08-15 21:02:31,664 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/f90de01f-1ad7-4cfd-83e1-90623fb663d6 "HTTP/1.1 200 OK"
+2025-08-15 21:02:34,737 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/f90de01f-1ad7-4cfd-83e1-90623fb663d6 "HTTP/1.1 200 OK"
+2025-08-15 21:02:37,833 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/f90de01f-1ad7-4cfd-83e1-90623fb663d6 "HTTP/1.1 200 OK"
+2025-08-15 21:02:41,138 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/f90de01f-1ad7-4cfd-83e1-90623fb663d6 "HTTP/1.1 200 OK"
+2025-08-15 21:02:44,196 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/f90de01f-1ad7-4cfd-83e1-90623fb663d6 "HTTP/1.1 200 OK"
+2025-08-15 21:02:47,312 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/f90de01f-1ad7-4cfd-83e1-90623fb663d6 "HTTP/1.1 200 OK"
+2025-08-15 21:02:50,411 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/f90de01f-1ad7-4cfd-83e1-90623fb663d6 "HTTP/1.1 200 OK"
+2025-08-15 21:02:53,689 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/f90de01f-1ad7-4cfd-83e1-90623fb663d6 "HTTP/1.1 200 OK"
+2025-08-15 21:02:56,800 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/f90de01f-1ad7-4cfd-83e1-90623fb663d6 "HTTP/1.1 200 OK"
+2025-08-15 21:03:00,425 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/f90de01f-1ad7-4cfd-83e1-90623fb663d6 "HTTP/1.1 200 OK"
+2025-08-15 21:03:00,972 - INFO - ✅ Successfully processed GMT20210310-190136_HIST-110_1680x728.mp4 → GMT20210310-190136_HIST-110_1680x728.txt
+2025-08-15 21:03:00,974 - INFO - 📁 New media file detected: GMT20210315-162459_HIST-110_1680x768.mp4
+2025-08-15 21:03:02,975 - INFO - 🎬 Starting transcription: GMT20210315-162459_HIST-110_1680x768.mp4 
+2025-08-15 21:03:02,975 - INFO - 🔄 Transcribing GMT20210315-162459_HIST-110_1680x768.mp4...
+2025-08-15 21:09:39,715 - INFO - HTTP Request: POST https://api.assemblyai.com/v2/upload "HTTP/1.1 200 OK"
+2025-08-15 21:09:39,837 - INFO - HTTP Request: POST https://api.assemblyai.com/v2/transcript "HTTP/1.1 200 OK"
+2025-08-15 21:09:39,915 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/cfbdb0c3-2f67-48c3-b5f5-cb23f975fdea "HTTP/1.1 200 OK"
+2025-08-15 21:09:43,011 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/cfbdb0c3-2f67-48c3-b5f5-cb23f975fdea "HTTP/1.1 200 OK"
+2025-08-15 21:09:46,143 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/cfbdb0c3-2f67-48c3-b5f5-cb23f975fdea "HTTP/1.1 200 OK"
+2025-08-15 21:09:49,215 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/cfbdb0c3-2f67-48c3-b5f5-cb23f975fdea "HTTP/1.1 200 OK"
+2025-08-15 21:09:52,337 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/cfbdb0c3-2f67-48c3-b5f5-cb23f975fdea "HTTP/1.1 200 OK"
+2025-08-15 21:09:55,464 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/cfbdb0c3-2f67-48c3-b5f5-cb23f975fdea "HTTP/1.1 200 OK"
+2025-08-15 21:09:58,572 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/cfbdb0c3-2f67-48c3-b5f5-cb23f975fdea "HTTP/1.1 200 OK"
+2025-08-15 21:10:01,692 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/cfbdb0c3-2f67-48c3-b5f5-cb23f975fdea "HTTP/1.1 200 OK"
+2025-08-15 21:10:04,985 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/cfbdb0c3-2f67-48c3-b5f5-cb23f975fdea "HTTP/1.1 200 OK"
+2025-08-15 21:10:08,094 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/cfbdb0c3-2f67-48c3-b5f5-cb23f975fdea "HTTP/1.1 200 OK"
+2025-08-15 21:10:11,187 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/cfbdb0c3-2f67-48c3-b5f5-cb23f975fdea "HTTP/1.1 200 OK"
+2025-08-15 21:10:14,763 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/cfbdb0c3-2f67-48c3-b5f5-cb23f975fdea "HTTP/1.1 200 OK"
+2025-08-15 21:10:15,156 - INFO - ✅ Successfully processed GMT20210315-162459_HIST-110_1680x768.mp4 → GMT20210315-162459_HIST-110_1680x768.txt
+2025-08-15 21:10:15,158 - INFO - 📁 New media file detected: GMT20210315-175736_HIST-110_1680x768.mp4
+2025-08-15 21:10:17,158 - INFO - 🎬 Starting transcription: GMT20210315-175736_HIST-110_1680x768.mp4 
+2025-08-15 21:10:17,159 - INFO - 🔄 Transcribing GMT20210315-175736_HIST-110_1680x768.mp4...
+2025-08-15 21:18:11,932 - INFO - HTTP Request: POST https://api.assemblyai.com/v2/upload "HTTP/1.1 200 OK"
+2025-08-15 21:18:12,043 - INFO - HTTP Request: POST https://api.assemblyai.com/v2/transcript "HTTP/1.1 200 OK"
+2025-08-15 21:18:12,105 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/27135eab-31ac-4894-8f90-031411fa4204 "HTTP/1.1 200 OK"
+2025-08-15 21:18:15,198 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/27135eab-31ac-4894-8f90-031411fa4204 "HTTP/1.1 200 OK"
+2025-08-15 21:18:18,271 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/27135eab-31ac-4894-8f90-031411fa4204 "HTTP/1.1 200 OK"
+2025-08-15 21:18:21,339 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/27135eab-31ac-4894-8f90-031411fa4204 "HTTP/1.1 200 OK"
+2025-08-15 21:18:24,415 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/27135eab-31ac-4894-8f90-031411fa4204 "HTTP/1.1 200 OK"
+2025-08-15 21:18:27,487 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/27135eab-31ac-4894-8f90-031411fa4204 "HTTP/1.1 200 OK"
+2025-08-15 21:18:30,556 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/27135eab-31ac-4894-8f90-031411fa4204 "HTTP/1.1 200 OK"
+2025-08-15 21:18:33,687 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/27135eab-31ac-4894-8f90-031411fa4204 "HTTP/1.1 200 OK"
+2025-08-15 21:18:36,775 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/27135eab-31ac-4894-8f90-031411fa4204 "HTTP/1.1 200 OK"
+2025-08-15 21:18:39,853 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/27135eab-31ac-4894-8f90-031411fa4204 "HTTP/1.1 200 OK"
+2025-08-15 21:18:42,920 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/27135eab-31ac-4894-8f90-031411fa4204 "HTTP/1.1 200 OK"
+2025-08-15 21:18:46,013 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/27135eab-31ac-4894-8f90-031411fa4204 "HTTP/1.1 200 OK"
+2025-08-15 21:18:49,088 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/27135eab-31ac-4894-8f90-031411fa4204 "HTTP/1.1 200 OK"
+2025-08-15 21:18:52,155 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/27135eab-31ac-4894-8f90-031411fa4204 "HTTP/1.1 200 OK"
+2025-08-15 21:18:55,844 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/27135eab-31ac-4894-8f90-031411fa4204 "HTTP/1.1 200 OK"
+2025-08-15 21:18:56,200 - INFO - ✅ Successfully processed GMT20210315-175736_HIST-110_1680x768.mp4 → GMT20210315-175736_HIST-110_1680x768.txt
+2025-08-15 21:18:56,201 - INFO - 📁 New media file detected: GMT20210317-162555_HIST-110_1680x768.mp4
+2025-08-15 21:18:58,202 - INFO - 🎬 Starting transcription: GMT20210317-162555_HIST-110_1680x768.mp4 
+2025-08-15 21:18:58,202 - INFO - 🔄 Transcribing GMT20210317-162555_HIST-110_1680x768.mp4...
+2025-08-15 21:22:42,361 - INFO - HTTP Request: POST https://api.assemblyai.com/v2/upload "HTTP/1.1 200 OK"
+2025-08-15 21:22:42,475 - INFO - HTTP Request: POST https://api.assemblyai.com/v2/transcript "HTTP/1.1 200 OK"
+2025-08-15 21:22:42,537 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/35637a4e-448e-4c72-a45e-795db21a80ca "HTTP/1.1 200 OK"
+2025-08-15 21:22:45,631 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/35637a4e-448e-4c72-a45e-795db21a80ca "HTTP/1.1 200 OK"
+2025-08-15 21:22:48,698 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/35637a4e-448e-4c72-a45e-795db21a80ca "HTTP/1.1 200 OK"
+2025-08-15 21:22:52,203 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/35637a4e-448e-4c72-a45e-795db21a80ca "HTTP/1.1 200 OK"
+2025-08-15 21:22:55,270 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/35637a4e-448e-4c72-a45e-795db21a80ca "HTTP/1.1 200 OK"
+2025-08-15 21:22:58,333 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/35637a4e-448e-4c72-a45e-795db21a80ca "HTTP/1.1 200 OK"
+2025-08-15 21:23:01,400 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/35637a4e-448e-4c72-a45e-795db21a80ca "HTTP/1.1 200 OK"
+2025-08-15 21:23:04,476 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/35637a4e-448e-4c72-a45e-795db21a80ca "HTTP/1.1 200 OK"
+2025-08-15 21:23:07,537 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/35637a4e-448e-4c72-a45e-795db21a80ca "HTTP/1.1 200 OK"
+2025-08-15 21:23:10,626 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/35637a4e-448e-4c72-a45e-795db21a80ca "HTTP/1.1 200 OK"
+2025-08-15 21:23:14,137 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/35637a4e-448e-4c72-a45e-795db21a80ca "HTTP/1.1 200 OK"
+2025-08-15 21:23:14,286 - INFO - ✅ Successfully processed GMT20210317-162555_HIST-110_1680x768.mp4 → GMT20210317-162555_HIST-110_1680x768.txt
+2025-08-15 21:23:14,287 - INFO - 📁 New media file detected: GMT20210317-175801_HIST-110_1680x768 (1).mp4
+2025-08-15 21:23:16,287 - INFO - 🎬 Starting transcription: GMT20210317-175801_HIST-110_1680x768 (1).mp4 
+2025-08-15 21:23:16,287 - INFO - 🔄 Transcribing GMT20210317-175801_HIST-110_1680x768 (1).mp4...
+2025-08-15 21:34:25,554 - INFO - HTTP Request: POST https://api.assemblyai.com/v2/upload "HTTP/1.1 200 OK"
+2025-08-15 21:34:25,672 - INFO - HTTP Request: POST https://api.assemblyai.com/v2/transcript "HTTP/1.1 200 OK"
+2025-08-15 21:34:25,736 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/b0b1f5e5-03b3-4cf2-a894-52256135c963 "HTTP/1.1 200 OK"
+2025-08-15 21:34:28,794 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/b0b1f5e5-03b3-4cf2-a894-52256135c963 "HTTP/1.1 200 OK"
+2025-08-15 21:34:31,855 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/b0b1f5e5-03b3-4cf2-a894-52256135c963 "HTTP/1.1 200 OK"
+2025-08-15 21:34:34,954 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/b0b1f5e5-03b3-4cf2-a894-52256135c963 "HTTP/1.1 200 OK"
+2025-08-15 21:34:38,120 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/b0b1f5e5-03b3-4cf2-a894-52256135c963 "HTTP/1.1 200 OK"
+2025-08-15 21:34:41,182 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/b0b1f5e5-03b3-4cf2-a894-52256135c963 "HTTP/1.1 200 OK"
+2025-08-15 21:34:44,265 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/b0b1f5e5-03b3-4cf2-a894-52256135c963 "HTTP/1.1 200 OK"
+2025-08-15 21:34:47,386 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/b0b1f5e5-03b3-4cf2-a894-52256135c963 "HTTP/1.1 200 OK"
+2025-08-15 21:34:50,960 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/b0b1f5e5-03b3-4cf2-a894-52256135c963 "HTTP/1.1 200 OK"
+2025-08-15 21:34:54,028 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/b0b1f5e5-03b3-4cf2-a894-52256135c963 "HTTP/1.1 200 OK"
+2025-08-15 21:34:57,094 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/b0b1f5e5-03b3-4cf2-a894-52256135c963 "HTTP/1.1 200 OK"
+2025-08-15 21:35:00,173 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/b0b1f5e5-03b3-4cf2-a894-52256135c963 "HTTP/1.1 200 OK"
+2025-08-15 21:35:03,239 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/b0b1f5e5-03b3-4cf2-a894-52256135c963 "HTTP/1.1 200 OK"
+2025-08-15 21:35:06,837 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/b0b1f5e5-03b3-4cf2-a894-52256135c963 "HTTP/1.1 200 OK"
+2025-08-15 21:35:07,031 - INFO - ✅ Successfully processed GMT20210317-175801_HIST-110_1680x768 (1).mp4 → GMT20210317-175801_HIST-110_1680x768 (1).txt
+2025-08-15 21:35:07,032 - INFO - 📁 New media file detected: GMT20210317-175801_HIST-110_1680x768.mp4
+2025-08-15 21:35:09,033 - INFO - 🎬 Starting transcription: GMT20210317-175801_HIST-110_1680x768.mp4 
+2025-08-15 21:35:09,033 - INFO - 🔄 Transcribing GMT20210317-175801_HIST-110_1680x768.mp4...
+2025-08-15 21:44:32,107 - INFO - HTTP Request: POST https://api.assemblyai.com/v2/upload "HTTP/1.1 200 OK"
+2025-08-15 21:44:32,276 - INFO - HTTP Request: POST https://api.assemblyai.com/v2/transcript "HTTP/1.1 200 OK"
+2025-08-15 21:44:32,375 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/b39080fc-672d-4c2e-a217-ecd3f7257bf1 "HTTP/1.1 200 OK"
+2025-08-15 21:44:35,557 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/b39080fc-672d-4c2e-a217-ecd3f7257bf1 "HTTP/1.1 200 OK"
+2025-08-15 21:44:38,621 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/b39080fc-672d-4c2e-a217-ecd3f7257bf1 "HTTP/1.1 200 OK"
+2025-08-15 21:44:41,692 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/b39080fc-672d-4c2e-a217-ecd3f7257bf1 "HTTP/1.1 200 OK"
+2025-08-15 21:44:44,784 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/b39080fc-672d-4c2e-a217-ecd3f7257bf1 "HTTP/1.1 200 OK"
+2025-08-15 21:44:47,883 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/b39080fc-672d-4c2e-a217-ecd3f7257bf1 "HTTP/1.1 200 OK"
+2025-08-15 21:44:51,016 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/b39080fc-672d-4c2e-a217-ecd3f7257bf1 "HTTP/1.1 200 OK"
+2025-08-15 21:44:54,273 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/b39080fc-672d-4c2e-a217-ecd3f7257bf1 "HTTP/1.1 200 OK"
+2025-08-15 21:44:57,417 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/b39080fc-672d-4c2e-a217-ecd3f7257bf1 "HTTP/1.1 200 OK"
+2025-08-15 21:45:00,489 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/b39080fc-672d-4c2e-a217-ecd3f7257bf1 "HTTP/1.1 200 OK"
+2025-08-15 21:45:03,568 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/b39080fc-672d-4c2e-a217-ecd3f7257bf1 "HTTP/1.1 200 OK"
+2025-08-15 21:45:06,660 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/b39080fc-672d-4c2e-a217-ecd3f7257bf1 "HTTP/1.1 200 OK"
+2025-08-15 21:45:10,788 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/b39080fc-672d-4c2e-a217-ecd3f7257bf1 "HTTP/1.1 200 OK"
+2025-08-15 21:45:10,970 - INFO - ✅ Successfully processed GMT20210317-175801_HIST-110_1680x768.mp4 → GMT20210317-175801_HIST-110_1680x768.txt
+2025-08-15 21:45:10,972 - INFO - 📁 New media file detected: GMT20210322-145223_Recording_1680x768.mp4
+2025-08-15 21:45:12,978 - INFO - 🎬 Starting transcription: GMT20210322-145223_Recording_1680x768.mp4 
+2025-08-15 21:45:12,978 - INFO - 🔄 Transcribing GMT20210322-145223_Recording_1680x768.mp4...
+2025-08-15 22:00:42,393 - INFO - HTTP Request: POST https://api.assemblyai.com/v2/upload "HTTP/1.1 502 Bad Gateway"
+2025-08-15 22:00:42,394 - ERROR - ❌ Error processing GMT20210322-145223_Recording_1680x768.mp4: Failed to upload audio file: 
+Reason: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+</body>
+</html>
+
+Request: <Request('POST', 'https://api.assemblyai.com/v2/upload')>
+2025-08-15 22:00:42,395 - INFO - 📁 New media file detected: GMT20210322-162617_Recording_1680x728.mp4
+2025-08-15 22:00:44,395 - INFO - 🎬 Starting transcription: GMT20210322-162617_Recording_1680x728.mp4 
+2025-08-15 22:00:44,395 - INFO - 🔄 Transcribing GMT20210322-162617_Recording_1680x728.mp4...
+2025-08-15 22:11:52,828 - INFO - HTTP Request: POST https://api.assemblyai.com/v2/upload "HTTP/1.1 200 OK"
+2025-08-15 22:11:52,966 - INFO - HTTP Request: POST https://api.assemblyai.com/v2/transcript "HTTP/1.1 200 OK"
+2025-08-15 22:11:53,046 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/12d36a8b-3879-491d-b9d9-fe58aaba258c "HTTP/1.1 200 OK"
+2025-08-15 22:11:56,140 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/12d36a8b-3879-491d-b9d9-fe58aaba258c "HTTP/1.1 200 OK"
+2025-08-15 22:11:59,199 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/12d36a8b-3879-491d-b9d9-fe58aaba258c "HTTP/1.1 200 OK"
+2025-08-15 22:12:02,280 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/12d36a8b-3879-491d-b9d9-fe58aaba258c "HTTP/1.1 200 OK"
+2025-08-15 22:12:05,381 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/12d36a8b-3879-491d-b9d9-fe58aaba258c "HTTP/1.1 200 OK"
+2025-08-15 22:12:08,443 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/12d36a8b-3879-491d-b9d9-fe58aaba258c "HTTP/1.1 200 OK"
+2025-08-15 22:12:11,518 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/12d36a8b-3879-491d-b9d9-fe58aaba258c "HTTP/1.1 200 OK"
+2025-08-15 22:12:14,635 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/12d36a8b-3879-491d-b9d9-fe58aaba258c "HTTP/1.1 200 OK"
+2025-08-15 22:12:18,595 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/12d36a8b-3879-491d-b9d9-fe58aaba258c "HTTP/1.1 200 OK"
+2025-08-15 22:12:21,669 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/12d36a8b-3879-491d-b9d9-fe58aaba258c "HTTP/1.1 200 OK"
+2025-08-15 22:12:24,762 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/12d36a8b-3879-491d-b9d9-fe58aaba258c "HTTP/1.1 200 OK"
+2025-08-15 22:12:27,863 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/12d36a8b-3879-491d-b9d9-fe58aaba258c "HTTP/1.1 200 OK"
+2025-08-15 22:12:30,986 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/12d36a8b-3879-491d-b9d9-fe58aaba258c "HTTP/1.1 200 OK"
+2025-08-15 22:12:34,242 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/12d36a8b-3879-491d-b9d9-fe58aaba258c "HTTP/1.1 200 OK"
+2025-08-15 22:12:38,583 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/12d36a8b-3879-491d-b9d9-fe58aaba258c "HTTP/1.1 200 OK"
+2025-08-15 22:12:38,887 - INFO - ✅ Successfully processed GMT20210322-162617_Recording_1680x728.mp4 → GMT20210322-162617_Recording_1680x728.txt
+2025-08-15 22:12:38,889 - INFO - 📁 New media file detected: GMT20210405-162451_Recording_1680x768.mp4
+2025-08-15 22:12:40,890 - INFO - 🎬 Starting transcription: GMT20210405-162451_Recording_1680x768.mp4 
+2025-08-15 22:12:40,890 - INFO - 🔄 Transcribing GMT20210405-162451_Recording_1680x768.mp4...
+2025-08-15 22:18:57,195 - INFO - HTTP Request: POST https://api.assemblyai.com/v2/upload "HTTP/1.1 200 OK"
+2025-08-15 22:18:57,332 - INFO - HTTP Request: POST https://api.assemblyai.com/v2/transcript "HTTP/1.1 200 OK"
+2025-08-15 22:18:57,423 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/a04bbad7-5786-4d76-b89c-dd9e21316f64 "HTTP/1.1 200 OK"
+2025-08-15 22:19:00,524 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/a04bbad7-5786-4d76-b89c-dd9e21316f64 "HTTP/1.1 200 OK"
+2025-08-15 22:19:03,591 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/a04bbad7-5786-4d76-b89c-dd9e21316f64 "HTTP/1.1 200 OK"
+2025-08-15 22:19:07,478 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/a04bbad7-5786-4d76-b89c-dd9e21316f64 "HTTP/1.1 200 OK"
+2025-08-15 22:19:10,618 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/a04bbad7-5786-4d76-b89c-dd9e21316f64 "HTTP/1.1 200 OK"
+2025-08-15 22:19:13,745 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/a04bbad7-5786-4d76-b89c-dd9e21316f64 "HTTP/1.1 200 OK"
+2025-08-15 22:19:16,915 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/a04bbad7-5786-4d76-b89c-dd9e21316f64 "HTTP/1.1 200 OK"
+2025-08-15 22:19:19,978 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/a04bbad7-5786-4d76-b89c-dd9e21316f64 "HTTP/1.1 200 OK"
+2025-08-15 22:19:23,065 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/a04bbad7-5786-4d76-b89c-dd9e21316f64 "HTTP/1.1 200 OK"
+2025-08-15 22:19:26,790 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/a04bbad7-5786-4d76-b89c-dd9e21316f64 "HTTP/1.1 200 OK"
+2025-08-15 22:19:29,855 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/a04bbad7-5786-4d76-b89c-dd9e21316f64 "HTTP/1.1 200 OK"
+2025-08-15 22:19:33,670 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/a04bbad7-5786-4d76-b89c-dd9e21316f64 "HTTP/1.1 200 OK"
+2025-08-15 22:19:33,823 - INFO - ✅ Successfully processed GMT20210405-162451_Recording_1680x768.mp4 → GMT20210405-162451_Recording_1680x768.txt
+2025-08-15 22:19:33,824 - INFO - 📁 New media file detected: GMT20210405-180655_Recording_1680x768.mp4
+2025-08-15 22:19:35,825 - INFO - 🎬 Starting transcription: GMT20210405-180655_Recording_1680x768.mp4 
+2025-08-15 22:19:35,825 - INFO - 🔄 Transcribing GMT20210405-180655_Recording_1680x768.mp4...
+2025-08-15 22:25:58,375 - INFO - HTTP Request: POST https://api.assemblyai.com/v2/upload "HTTP/1.1 200 OK"
+2025-08-15 22:25:58,512 - INFO - HTTP Request: POST https://api.assemblyai.com/v2/transcript "HTTP/1.1 200 OK"
+2025-08-15 22:25:58,584 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/8df24ed7-33b9-44ab-a04a-5425ee425118 "HTTP/1.1 200 OK"
+2025-08-15 22:26:01,963 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/8df24ed7-33b9-44ab-a04a-5425ee425118 "HTTP/1.1 200 OK"
+2025-08-15 22:26:05,041 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/8df24ed7-33b9-44ab-a04a-5425ee425118 "HTTP/1.1 200 OK"
+2025-08-15 22:26:08,124 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/8df24ed7-33b9-44ab-a04a-5425ee425118 "HTTP/1.1 200 OK"
+2025-08-15 22:26:11,194 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/8df24ed7-33b9-44ab-a04a-5425ee425118 "HTTP/1.1 200 OK"
+2025-08-15 22:26:14,269 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/8df24ed7-33b9-44ab-a04a-5425ee425118 "HTTP/1.1 200 OK"
+2025-08-15 22:26:18,145 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/8df24ed7-33b9-44ab-a04a-5425ee425118 "HTTP/1.1 200 OK"
+2025-08-15 22:26:22,180 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/8df24ed7-33b9-44ab-a04a-5425ee425118 "HTTP/1.1 200 OK"
+2025-08-15 22:26:25,257 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/8df24ed7-33b9-44ab-a04a-5425ee425118 "HTTP/1.1 200 OK"
+2025-08-15 22:26:28,751 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/8df24ed7-33b9-44ab-a04a-5425ee425118 "HTTP/1.1 200 OK"
+2025-08-15 22:26:28,847 - INFO - ✅ Successfully processed GMT20210405-180655_Recording_1680x768.mp4 → GMT20210405-180655_Recording_1680x768.txt
+2025-08-15 22:26:28,848 - INFO - 📁 New media file detected: GMT20210407-162855_Recording_1680x768.mp4
+2025-08-15 22:26:30,849 - INFO - 🎬 Starting transcription: GMT20210407-162855_Recording_1680x768.mp4 
+2025-08-15 22:26:30,850 - INFO - 🔄 Transcribing GMT20210407-162855_Recording_1680x768.mp4...
+2025-08-15 22:28:25,317 - INFO - HTTP Request: POST https://api.assemblyai.com/v2/upload "HTTP/1.1 200 OK"
+2025-08-15 22:28:25,415 - INFO - HTTP Request: POST https://api.assemblyai.com/v2/transcript "HTTP/1.1 200 OK"
+2025-08-15 22:28:25,469 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/68ba15d7-9669-4208-9925-f4106c6c396d "HTTP/1.1 200 OK"
+2025-08-15 22:28:29,280 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/68ba15d7-9669-4208-9925-f4106c6c396d "HTTP/1.1 200 OK"
+2025-08-15 22:28:32,330 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/68ba15d7-9669-4208-9925-f4106c6c396d "HTTP/1.1 200 OK"
+2025-08-15 22:28:35,380 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/68ba15d7-9669-4208-9925-f4106c6c396d "HTTP/1.1 200 OK"
+2025-08-15 22:28:38,433 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/68ba15d7-9669-4208-9925-f4106c6c396d "HTTP/1.1 200 OK"
+2025-08-15 22:28:41,507 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/68ba15d7-9669-4208-9925-f4106c6c396d "HTTP/1.1 200 OK"
+2025-08-15 22:28:44,643 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/68ba15d7-9669-4208-9925-f4106c6c396d "HTTP/1.1 200 OK"
+2025-08-15 22:28:47,755 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/68ba15d7-9669-4208-9925-f4106c6c396d "HTTP/1.1 200 OK"
+2025-08-15 22:28:51,129 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/68ba15d7-9669-4208-9925-f4106c6c396d "HTTP/1.1 200 OK"
+2025-08-15 22:28:51,184 - INFO - ✅ Successfully processed GMT20210407-162855_Recording_1680x768.mp4 → GMT20210407-162855_Recording_1680x768.txt
+2025-08-15 22:28:51,185 - INFO - 📁 New media file detected: GMT20210407-180344_Recording_1680x768.mp4
+2025-08-15 22:28:53,185 - INFO - 🎬 Starting transcription: GMT20210407-180344_Recording_1680x768.mp4 
+2025-08-15 22:28:53,186 - INFO - 🔄 Transcribing GMT20210407-180344_Recording_1680x768.mp4...
+2025-08-15 22:39:31,954 - INFO - HTTP Request: POST https://api.assemblyai.com/v2/upload "HTTP/1.1 200 OK"
+2025-08-15 22:39:32,143 - INFO - HTTP Request: POST https://api.assemblyai.com/v2/transcript "HTTP/1.1 200 OK"
+2025-08-15 22:39:32,416 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/98b6883a-7ff9-492d-a2c4-614204b49bc0 "HTTP/1.1 200 OK"
+2025-08-15 22:39:35,480 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/98b6883a-7ff9-492d-a2c4-614204b49bc0 "HTTP/1.1 200 OK"
+2025-08-15 22:39:38,538 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/98b6883a-7ff9-492d-a2c4-614204b49bc0 "HTTP/1.1 200 OK"
+2025-08-15 22:39:41,605 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/98b6883a-7ff9-492d-a2c4-614204b49bc0 "HTTP/1.1 200 OK"
+2025-08-15 22:39:44,665 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/98b6883a-7ff9-492d-a2c4-614204b49bc0 "HTTP/1.1 200 OK"
+2025-08-15 22:39:48,002 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/98b6883a-7ff9-492d-a2c4-614204b49bc0 "HTTP/1.1 200 OK"
+2025-08-15 22:39:51,059 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/98b6883a-7ff9-492d-a2c4-614204b49bc0 "HTTP/1.1 200 OK"
+2025-08-15 22:39:54,145 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/98b6883a-7ff9-492d-a2c4-614204b49bc0 "HTTP/1.1 200 OK"
+2025-08-15 22:39:57,523 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/98b6883a-7ff9-492d-a2c4-614204b49bc0 "HTTP/1.1 200 OK"
+2025-08-15 22:39:57,629 - INFO - ✅ Successfully processed GMT20210407-180344_Recording_1680x768.mp4 → GMT20210407-180344_Recording_1680x768.txt
+2025-08-15 22:39:57,630 - INFO - 📁 New media file detected: GMT20210412-162724_Recording_1680x768.mp4
+2025-08-15 22:39:59,630 - INFO - 🎬 Starting transcription: GMT20210412-162724_Recording_1680x768.mp4 
+2025-08-15 22:39:59,630 - INFO - 🔄 Transcribing GMT20210412-162724_Recording_1680x768.mp4...
+2025-08-15 22:52:34,310 - INFO - HTTP Request: POST https://api.assemblyai.com/v2/upload "HTTP/1.1 200 OK"
+2025-08-15 22:52:34,471 - INFO - HTTP Request: POST https://api.assemblyai.com/v2/transcript "HTTP/1.1 200 OK"
+2025-08-15 22:52:34,575 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/ff69f035-0d2f-4b10-ab9a-9ba5994ade52 "HTTP/1.1 200 OK"
+2025-08-15 22:52:37,637 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/ff69f035-0d2f-4b10-ab9a-9ba5994ade52 "HTTP/1.1 200 OK"
+2025-08-15 22:52:40,699 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/ff69f035-0d2f-4b10-ab9a-9ba5994ade52 "HTTP/1.1 200 OK"
+2025-08-15 22:52:43,763 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/ff69f035-0d2f-4b10-ab9a-9ba5994ade52 "HTTP/1.1 200 OK"
+2025-08-15 22:52:47,789 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/ff69f035-0d2f-4b10-ab9a-9ba5994ade52 "HTTP/1.1 200 OK"
+2025-08-15 22:52:50,859 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/ff69f035-0d2f-4b10-ab9a-9ba5994ade52 "HTTP/1.1 200 OK"
+2025-08-15 22:52:53,919 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/ff69f035-0d2f-4b10-ab9a-9ba5994ade52 "HTTP/1.1 200 OK"
+2025-08-15 22:52:56,982 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/ff69f035-0d2f-4b10-ab9a-9ba5994ade52 "HTTP/1.1 200 OK"
+2025-08-15 22:53:00,051 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/ff69f035-0d2f-4b10-ab9a-9ba5994ade52 "HTTP/1.1 200 OK"
+2025-08-15 22:53:03,624 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/ff69f035-0d2f-4b10-ab9a-9ba5994ade52 "HTTP/1.1 200 OK"
+2025-08-15 22:53:03,772 - INFO - ✅ Successfully processed GMT20210412-162724_Recording_1680x768.mp4 → GMT20210412-162724_Recording_1680x768.txt
+2025-08-15 22:53:03,774 - INFO - 📁 New media file detected: GMT20210412-180434_Recording_1680x768.mp4
+2025-08-15 22:53:05,774 - INFO - 🎬 Starting transcription: GMT20210412-180434_Recording_1680x768.mp4 
+2025-08-15 22:53:05,774 - INFO - 🔄 Transcribing GMT20210412-180434_Recording_1680x768.mp4...
+2025-08-15 22:58:37,602 - INFO - HTTP Request: POST https://api.assemblyai.com/v2/upload "HTTP/1.1 200 OK"
+2025-08-15 22:58:37,720 - INFO - HTTP Request: POST https://api.assemblyai.com/v2/transcript "HTTP/1.1 200 OK"
+2025-08-15 22:58:37,781 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/5f7319b9-7b2c-4a72-b2ae-59215f1dce05 "HTTP/1.1 200 OK"
+2025-08-15 22:58:40,841 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/5f7319b9-7b2c-4a72-b2ae-59215f1dce05 "HTTP/1.1 200 OK"
+2025-08-15 22:58:43,903 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/5f7319b9-7b2c-4a72-b2ae-59215f1dce05 "HTTP/1.1 200 OK"
+2025-08-15 22:58:46,999 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/5f7319b9-7b2c-4a72-b2ae-59215f1dce05 "HTTP/1.1 200 OK"
+2025-08-15 22:58:50,058 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/5f7319b9-7b2c-4a72-b2ae-59215f1dce05 "HTTP/1.1 200 OK"
+2025-08-15 22:58:54,141 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/5f7319b9-7b2c-4a72-b2ae-59215f1dce05 "HTTP/1.1 200 OK"
+2025-08-15 22:58:57,197 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/5f7319b9-7b2c-4a72-b2ae-59215f1dce05 "HTTP/1.1 200 OK"
+2025-08-15 22:59:00,393 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/5f7319b9-7b2c-4a72-b2ae-59215f1dce05 "HTTP/1.1 200 OK"
+2025-08-15 22:59:03,456 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/5f7319b9-7b2c-4a72-b2ae-59215f1dce05 "HTTP/1.1 200 OK"
+2025-08-15 22:59:06,530 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/5f7319b9-7b2c-4a72-b2ae-59215f1dce05 "HTTP/1.1 200 OK"
+2025-08-15 22:59:09,595 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/5f7319b9-7b2c-4a72-b2ae-59215f1dce05 "HTTP/1.1 200 OK"
+2025-08-15 22:59:12,653 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/5f7319b9-7b2c-4a72-b2ae-59215f1dce05 "HTTP/1.1 200 OK"
+2025-08-15 22:59:16,156 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/5f7319b9-7b2c-4a72-b2ae-59215f1dce05 "HTTP/1.1 200 OK"
+2025-08-15 22:59:16,300 - INFO - ✅ Successfully processed GMT20210412-180434_Recording_1680x768.mp4 → GMT20210412-180434_Recording_1680x768.txt
+2025-08-15 22:59:16,301 - INFO - 📁 New media file detected: GMT20210421-162147_Recording_1680x768.mp4
+2025-08-15 22:59:18,301 - INFO - 🎬 Starting transcription: GMT20210421-162147_Recording_1680x768.mp4 
+2025-08-15 22:59:18,301 - INFO - 🔄 Transcribing GMT20210421-162147_Recording_1680x768.mp4...
+2025-08-15 23:00:24,560 - INFO - HTTP Request: POST https://api.assemblyai.com/v2/upload "HTTP/1.1 200 OK"
+2025-08-15 23:00:24,763 - INFO - HTTP Request: POST https://api.assemblyai.com/v2/transcript "HTTP/1.1 200 OK"
+2025-08-15 23:00:24,819 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/3aa78d99-de9f-4dc3-8753-342c732ed813 "HTTP/1.1 200 OK"
+2025-08-15 23:00:27,877 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/3aa78d99-de9f-4dc3-8753-342c732ed813 "HTTP/1.1 200 OK"
+2025-08-15 23:00:30,934 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/3aa78d99-de9f-4dc3-8753-342c732ed813 "HTTP/1.1 200 OK"
+2025-08-15 23:00:34,995 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/3aa78d99-de9f-4dc3-8753-342c732ed813 "HTTP/1.1 200 OK"
+2025-08-15 23:00:38,168 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/3aa78d99-de9f-4dc3-8753-342c732ed813 "HTTP/1.1 200 OK"
+2025-08-15 23:00:41,224 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/3aa78d99-de9f-4dc3-8753-342c732ed813 "HTTP/1.1 200 OK"
+2025-08-15 23:00:44,283 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/3aa78d99-de9f-4dc3-8753-342c732ed813 "HTTP/1.1 200 OK"
+2025-08-15 23:00:47,362 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/3aa78d99-de9f-4dc3-8753-342c732ed813 "HTTP/1.1 200 OK"
+2025-08-15 23:00:51,218 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/3aa78d99-de9f-4dc3-8753-342c732ed813 "HTTP/1.1 200 OK"
+2025-08-15 23:00:51,484 - INFO - ✅ Successfully processed GMT20210421-162147_Recording_1680x768.mp4 → GMT20210421-162147_Recording_1680x768.txt
+2025-08-15 23:00:51,485 - INFO - 📁 New media file detected: GMT20210421-180134_Recording_1680x768.mp4
+2025-08-15 23:00:53,485 - INFO - 🎬 Starting transcription: GMT20210421-180134_Recording_1680x768.mp4 
+2025-08-15 23:00:53,486 - INFO - 🔄 Transcribing GMT20210421-180134_Recording_1680x768.mp4...
+2025-08-15 23:02:19,658 - INFO - HTTP Request: POST https://api.assemblyai.com/v2/upload "HTTP/1.1 200 OK"
+2025-08-15 23:02:19,759 - INFO - HTTP Request: POST https://api.assemblyai.com/v2/transcript "HTTP/1.1 200 OK"
+2025-08-15 23:02:19,816 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/da7a396d-3056-43da-b5f9-7b319c666133 "HTTP/1.1 200 OK"
+2025-08-15 23:02:22,871 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/da7a396d-3056-43da-b5f9-7b319c666133 "HTTP/1.1 200 OK"
+2025-08-15 23:02:25,929 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/da7a396d-3056-43da-b5f9-7b319c666133 "HTTP/1.1 200 OK"
+2025-08-15 23:02:28,986 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/da7a396d-3056-43da-b5f9-7b319c666133 "HTTP/1.1 200 OK"
+2025-08-15 23:02:32,043 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/da7a396d-3056-43da-b5f9-7b319c666133 "HTTP/1.1 200 OK"
+2025-08-15 23:02:35,101 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/da7a396d-3056-43da-b5f9-7b319c666133 "HTTP/1.1 200 OK"
+2025-08-15 23:02:38,156 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/da7a396d-3056-43da-b5f9-7b319c666133 "HTTP/1.1 200 OK"
+2025-08-15 23:02:41,213 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/da7a396d-3056-43da-b5f9-7b319c666133 "HTTP/1.1 200 OK"
+2025-08-15 23:02:44,294 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/da7a396d-3056-43da-b5f9-7b319c666133 "HTTP/1.1 200 OK"
+2025-08-15 23:02:48,182 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/da7a396d-3056-43da-b5f9-7b319c666133 "HTTP/1.1 200 OK"
+2025-08-15 23:02:51,626 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/da7a396d-3056-43da-b5f9-7b319c666133 "HTTP/1.1 200 OK"
+2025-08-15 23:02:51,759 - INFO - ✅ Successfully processed GMT20210421-180134_Recording_1680x768.mp4 → GMT20210421-180134_Recording_1680x768.txt
+2025-08-15 23:02:51,760 - INFO - 📁 New media file detected: GMT20210426-162802_Recording_1680x768.mp4
+2025-08-15 23:02:53,760 - INFO - 🎬 Starting transcription: GMT20210426-162802_Recording_1680x768.mp4 
+2025-08-15 23:02:53,761 - INFO - 🔄 Transcribing GMT20210426-162802_Recording_1680x768.mp4...
+2025-08-15 23:03:42,076 - INFO - HTTP Request: POST https://api.assemblyai.com/v2/upload "HTTP/1.1 200 OK"
+2025-08-15 23:03:42,180 - INFO - HTTP Request: POST https://api.assemblyai.com/v2/transcript "HTTP/1.1 200 OK"
+2025-08-15 23:03:42,236 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/6b51007c-fa17-4669-8aee-c38a400bc5aa "HTTP/1.1 200 OK"
+2025-08-15 23:03:45,335 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/6b51007c-fa17-4669-8aee-c38a400bc5aa "HTTP/1.1 200 OK"
+2025-08-15 23:03:48,397 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/6b51007c-fa17-4669-8aee-c38a400bc5aa "HTTP/1.1 200 OK"
+2025-08-15 23:03:52,359 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/6b51007c-fa17-4669-8aee-c38a400bc5aa "HTTP/1.1 200 OK"
+2025-08-15 23:03:55,421 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/6b51007c-fa17-4669-8aee-c38a400bc5aa "HTTP/1.1 200 OK"
+2025-08-15 23:03:58,582 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/6b51007c-fa17-4669-8aee-c38a400bc5aa "HTTP/1.1 200 OK"
+2025-08-15 23:03:58,601 - INFO - ✅ Successfully processed GMT20210426-162802_Recording_1680x768.mp4 → GMT20210426-162802_Recording_1680x768.txt
+2025-08-15 23:03:58,602 - INFO - 📁 New media file detected: GMT20210426-174746_Recording_1680x768.mp4
+2025-08-15 23:04:00,602 - INFO - 🎬 Starting transcription: GMT20210426-174746_Recording_1680x768.mp4 
+2025-08-15 23:04:00,603 - INFO - 🔄 Transcribing GMT20210426-174746_Recording_1680x768.mp4...
+2025-08-15 23:04:48,472 - INFO - HTTP Request: POST https://api.assemblyai.com/v2/upload "HTTP/1.1 200 OK"
+2025-08-15 23:04:48,572 - INFO - HTTP Request: POST https://api.assemblyai.com/v2/transcript "HTTP/1.1 200 OK"
+2025-08-15 23:04:48,635 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/81a54ff9-b65e-45f5-a657-b77cc75973c3 "HTTP/1.1 200 OK"
+2025-08-15 23:04:51,692 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/81a54ff9-b65e-45f5-a657-b77cc75973c3 "HTTP/1.1 200 OK"
+2025-08-15 23:04:54,751 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/81a54ff9-b65e-45f5-a657-b77cc75973c3 "HTTP/1.1 200 OK"
+2025-08-15 23:04:58,711 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/81a54ff9-b65e-45f5-a657-b77cc75973c3 "HTTP/1.1 200 OK"
+2025-08-15 23:05:01,766 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/81a54ff9-b65e-45f5-a657-b77cc75973c3 "HTTP/1.1 200 OK"
+2025-08-15 23:05:04,824 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/81a54ff9-b65e-45f5-a657-b77cc75973c3 "HTTP/1.1 200 OK"
+2025-08-15 23:05:07,881 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/81a54ff9-b65e-45f5-a657-b77cc75973c3 "HTTP/1.1 200 OK"
+2025-08-15 23:05:11,007 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/81a54ff9-b65e-45f5-a657-b77cc75973c3 "HTTP/1.1 200 OK"
+2025-08-15 23:05:11,027 - INFO - ✅ Successfully processed GMT20210426-174746_Recording_1680x768.mp4 → GMT20210426-174746_Recording_1680x768.txt
+2025-08-15 23:05:11,028 - INFO - 📁 New media file detected: GMT20210428-163035_Recording_1680x768.mp4
+2025-08-15 23:05:13,028 - INFO - 🎬 Starting transcription: GMT20210428-163035_Recording_1680x768.mp4 
+2025-08-15 23:05:13,028 - INFO - 🔄 Transcribing GMT20210428-163035_Recording_1680x768.mp4...

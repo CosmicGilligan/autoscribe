@@ -1,0 +1,8 @@
+2025-08-16 14:07:50,927 - INFO - 🤖 Loading Whisper model: medium
+2025-08-16 14:09:58,084 - INFO - ✅ Whisper model loaded successfully
+2025-08-16 14:11:15,706 - INFO - 📁 New media file detected: GMT20210208-190825_HIST-110_1680x768.mp4
+2025-08-16 14:11:17,706 - INFO - 🎬 Starting transcription: GMT20210208-190825_HIST-110_1680x768.mp4 
+2025-08-16 14:11:17,706 - INFO - 🔄 Transcribing GMT20210208-190825_HIST-110_1680x768.mp4 with Whisper...
+2025-08-16 14:17:03,223 - INFO - 📝 Text transcript saved: GMT20210208-190825_HIST-110_1680x768.txt
+2025-08-16 14:17:03,226 - INFO - 🎬 SRT subtitles saved: GMT20210208-190825_HIST-110_1680x768.srt
+2025-08-16 14:17:03,226 - INFO - ✅ Successfully processed GMT20210208-190825_HIST-110_1680x768.mp4 (duration: 5004.0s)

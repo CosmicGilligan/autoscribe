@@ -2,28 +2,31 @@
   "watch_folder": "./input",
   "output_folder": "./output",
   "processed_folder": "./processed",
-  "api_key_path": "/home/drkeithcox/assemblyai.key",
-  "course_settings": {
-    "course_string": "WRLD",
-    "course_number": "101",
-    "start_module": 11
-  },
   "supported_extensions": [
     ".mp4",
     ".mp3",
     ".wav",
     ".m4a",
     ".flac",
-    ".webm"
+    ".webm",
+    ".mov",
+    ".avi"
   ],
   "processing_delay": 2,
+  "whisper_model": "medium",
+  "language": "en",
+  "task": "transcribe",
   "conversation_mode": false,
-  "expected_speakers": 2,
   "conversation_keywords": [
     "notebooklm",
     "conversation",
     "discussion",
     "dialogue",
     "interview"
-  ]
+  ],
+  "output_formats": [
+    "txt",
+    "srt"
+  ],
+  "verbose": true
 }
