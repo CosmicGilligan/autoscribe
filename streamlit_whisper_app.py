@@ -1,6 +1,7 @@
 """
 Streamlit Web UI for Whisper Auto-Transcription Monitor
 Real-time transcription with visual progress and configuration
+Enhanced to process existing files on startup
 """
 
 import streamlit as st
@@ -37,7 +38,8 @@ DEFAULT_CONFIG = {
     "conversation_mode": False,
     "conversation_keywords": ["notebooklm", "conversation", "discussion", "dialogue", "interview"],
     "output_formats": ["txt", "srt"],
-    "verbose": True
+    "verbose": True,
+    "process_existing_files": True  # New option
 }
 
 # Global variables for thread communication
@@ -51,6 +53,8 @@ if 'monitor_running' not in st.session_state:
     st.session_state.monitor_running = False
 if 'transcription_log' not in st.session_state:
     st.session_state.transcription_log = []
+if 'existing_files_processed' not in st.session_state:
+    st.session_state.existing_files_processed = False
 
 class StreamlitTranscriptionHandler(FileSystemEventHandler):
     def __init__(self, config, status_queue):
@@ -80,7 +84,106 @@ class StreamlitTranscriptionHandler(FileSystemEventHandler):
         except Exception as e:
             self.status_queue.put({"type": "error", "message": f"❌ Failed to load Whisper model: {e}"})
             raise
+    
+    def process_existing_files(self):
+        """Process all existing files in the watch folder"""
+        watch_path = Path(self.config["watch_folder"])
+        if not watch_path.exists():
+            return
+        
+        existing_files = []
+        for file_path in watch_path.iterdir():
+            if file_path.is_file() and file_path.suffix.lower() in self.config["supported_extensions"]:
+                existing_files.append(file_path)
+        
+        if existing_files:
+            self.status_queue.put({
+                "type": "info", 
+                "message": f"🔍 Found {len(existing_files)} existing files to process"
+            })
             
+            # Sort by modification time (oldest first) for consistent processing order
+            existing_files.sort(key=lambda x: x.stat().st_mtime)
+            
+            for file_path in existing_files:
+                self.status_queue.put({
+                    "type": "file_detected", 
+                    "message": f"Processing existing file: {file_path.name}",
+                    "file": str(file_path)
+                })
+                
+                # Small delay to prevent overwhelming the system
+                time.sleep(0.5)
+                
+                # Process the file
+                self.process_file(file_path)
+        else:
+            self.status_queue.put({
+                "type": "info", 
+                "message": "ℹ️ No existing media files found in watch folder"
+            })
+            
+    def wait_for_file_completion(self, file_path, max_wait_time=300):
+        """Wait for a file to finish being written/uploaded"""
+        self.status_queue.put({
+            "type": "info",
+            "message": f"📁 Waiting for {file_path.name} to finish uploading..."
+        })
+        
+        last_size = -1
+        stable_count = 0
+        wait_time = 0
+        
+        while wait_time < max_wait_time:
+            try:
+                current_size = file_path.stat().st_size
+                
+                if current_size == last_size and current_size > 0:
+                    stable_count += 1
+                    if stable_count >= 3:  # File size stable for 3 checks
+                        # Try to open the file to ensure it's not locked
+                        try:
+                            with open(file_path, 'rb') as f:
+                                # Try to read a small chunk from the end to verify file integrity
+                                if current_size > 1024:
+                                    f.seek(-1024, 2)  # Go to 1024 bytes from end
+                                f.read(1024)
+                            
+                            self.status_queue.put({
+                                "type": "info",
+                                "message": f"✅ {file_path.name} upload complete ({current_size:,} bytes)"
+                            })
+                            return True
+                            
+                        except (IOError, OSError, PermissionError):
+                            # File still being written or locked
+                            stable_count = 0
+                            
+                else:
+                    stable_count = 0
+                    if current_size > last_size:
+                        self.status_queue.put({
+                            "type": "info",
+                            "message": f"📊 {file_path.name} uploading... ({current_size:,} bytes)"
+                        })
+                
+                last_size = current_size
+                time.sleep(2)  # Check every 2 seconds
+                wait_time += 2
+                
+            except FileNotFoundError:
+                self.status_queue.put({
+                    "type": "error",
+                    "message": f"❌ File {file_path.name} disappeared during upload"
+                })
+                return False
+                
+        self.status_queue.put({
+            "type": "error",
+            "message": f"⏰ Timeout waiting for {file_path.name} to finish uploading"
+        })
+        return False
+
     def on_created(self, event):
         """Handle new file creation events"""
         if event.is_directory:
@@ -97,10 +200,14 @@ class StreamlitTranscriptionHandler(FileSystemEventHandler):
             })
             
             # Wait for file to be completely uploaded
-            time.sleep(self.config["processing_delay"])
-            
-            # Process the file
-            self.process_file(file_path)
+            if self.wait_for_file_completion(file_path):
+                # Process the file
+                self.process_file(file_path)
+            else:
+                self.status_queue.put({
+                    "type": "error",
+                    "message": f"❌ Skipping {file_path.name} - upload incomplete or failed"
+                })
     
     def format_time_srt(self, seconds):
         """Convert seconds to SRT time format"""
@@ -168,9 +275,43 @@ class StreamlitTranscriptionHandler(FileSystemEventHandler):
         
         return "\n".join(formatted_lines)
     
+    def should_skip_file(self, file_path):
+        """Check if this file was already processed by looking for output files"""
+        output_dir = Path(self.config["output_folder"])
+        processed_dir = Path(self.config["processed_folder"])
+        
+        base_filename = file_path.stem
+        
+        # Check if already in processed folder
+        if (processed_dir / file_path.name).exists():
+            return True
+        
+        # Check if output files already exist
+        for output_format in self.config["output_formats"]:
+            if output_format == "txt":
+                if (output_dir / f"{base_filename}.txt").exists() or (output_dir / f"{base_filename}_conversation.txt").exists():
+                    return True
+            elif output_format == "srt":
+                if (output_dir / f"{base_filename}.srt").exists() or (output_dir / f"{base_filename}_conversation.srt").exists():
+                    return True
+            elif output_format == "json":
+                if (output_dir / f"{base_filename}.json").exists() or (output_dir / f"{base_filename}_conversation.json").exists():
+                    return True
+        
+        return False
+    
     def process_file(self, file_path):
         """Process a single media file with progress updates"""
         try:
+            # Check if file should be skipped (already processed)
+            if self.should_skip_file(file_path):
+                self.status_queue.put({
+                    "type": "info",
+                    "message": f"⏭️ Skipping {file_path.name} - already processed",
+                    "file": str(file_path)
+                })
+                return
+            
             filename = file_path.name
             is_conversation = any(keyword in filename.lower() 
                                 for keyword in self.config["conversation_keywords"])
@@ -308,6 +449,11 @@ def setup_directories(config):
     for folder_key in ["watch_folder", "output_folder", "processed_folder"]:
         Path(config[folder_key]).mkdir(exist_ok=True)
 
+def process_existing_files_thread(config, status_queue):
+    """Process existing files in a separate thread"""
+    handler = StreamlitTranscriptionHandler(config, status_queue)
+    handler.process_existing_files()
+
 def start_monitoring(config):
     """Start the file monitoring in a separate thread"""
     if st.session_state.monitor_running:
@@ -316,6 +462,22 @@ def start_monitoring(config):
     setup_directories(config)
     
     event_handler = StreamlitTranscriptionHandler(config, st.session_state.file_queue)
+    
+    # Process existing files first if enabled
+    if config.get("process_existing_files", True) and not st.session_state.existing_files_processed:
+        st.session_state.file_queue.put({
+            "type": "info",
+            "message": "🔍 Scanning for existing files to process..."
+        })
+        
+        # Start a thread to process existing files
+        existing_files_thread = threading.Thread(
+            target=lambda: event_handler.process_existing_files(),
+            daemon=True
+        )
+        existing_files_thread.start()
+        st.session_state.existing_files_processed = True
+    
     observer = Observer()
     observer.schedule(event_handler, config["watch_folder"], recursive=False)
     observer.start()
@@ -330,6 +492,8 @@ def stop_monitoring():
         st.session_state.observer.join()
         st.session_state.observer = None
         st.session_state.monitor_running = False
+        # Reset the existing files flag so they can be processed again if monitoring is restarted
+        st.session_state.existing_files_processed = False
 
 def main():
     st.set_page_config(
@@ -400,6 +564,13 @@ def main():
             value=config["conversation_mode"]
         )
         
+        # NEW: Process existing files option
+        config["process_existing_files"] = st.checkbox(
+            "Process existing files on startup",
+            value=config.get("process_existing_files", True),
+            help="Automatically process files already in the watch folder when monitoring starts"
+        )
+        
         # Folder settings
         st.subheader("📁 Folders")
         config["watch_folder"] = st.text_input("Watch Folder", value=config["watch_folder"])
@@ -418,7 +589,7 @@ def main():
         st.header("📊 Monitor Status")
         
         # Control buttons
-        col_start, col_stop = st.columns(2)
+        col_start, col_stop, col_reset = st.columns(3)
         
         with col_start:
             if st.button("▶️ Start Monitoring", disabled=st.session_state.monitor_running):
@@ -446,6 +617,11 @@ def main():
                     "word_count": 0
                 })
         
+        with col_reset:
+            if st.button("🔄 Reset Processing Flag", help="Reset the flag that tracks processed existing files"):
+                st.session_state.existing_files_processed = False
+                st.success("Processing flag reset! Existing files will be processed again on next start.")
+        
         # Status indicator with current status
         status_col1, status_col2 = st.columns([1, 3])
         with status_col1:
@@ -456,7 +632,8 @@ def main():
         
         with status_col2:
             if st.session_state.monitor_running:
-                st.info(f"👀 Watching: `{config['watch_folder']}`")
+                existing_status = " + processing existing files" if config.get("process_existing_files", True) and not st.session_state.existing_files_processed else ""
+                st.info(f"👀 Watching: `{config['watch_folder']}`{existing_status}")
             else:
                 st.info("Click 'Start Monitoring' to begin")
         
@@ -549,7 +726,8 @@ def main():
 Language: {selected_lang}
 Task: {config['task']}
 Formats: {', '.join(config['output_formats'])}
-Conversation: {'Always' if config['conversation_mode'] else 'Auto-detect'}""")
+Conversation: {'Always' if config['conversation_mode'] else 'Auto-detect'}
+Process Existing: {'Yes' if config.get('process_existing_files', True) else 'No'}""")
         
         # Folder status
         st.subheader("📁 Folder Status")

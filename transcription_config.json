@@ -28,5 +28,7 @@
     "txt",
     "srt"
   ],
-  "verbose": true
+  "verbose": true,
+  "api_key_path": "/home/drkeithcox/assemblyai.key",
+  "expected_speakers": 2
 }
